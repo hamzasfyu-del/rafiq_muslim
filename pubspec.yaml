@@ -15,7 +15,7 @@ dependencies:
   adhan: ^2.0.0+1
   flutter_local_notifications: ^17.0.0
   timezone: ^0.9.4
-  flutter_timezone: ^2.0.0
+  flutter_timezone: any
   geolocator: ^11.0.0
   shared_preferences: ^2.2.2
   intl: any
