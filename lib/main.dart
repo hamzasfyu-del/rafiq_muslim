@@ -89,7 +89,7 @@ class RafiqMuslimAppState extends State<RafiqMuslimApp> {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      home: widget.isFirstTime ? const OnboardingScreen() : const HomeScreen(),
+      home: widget.isFirstTime ? OnboardingScreen() : HomeScreen(),
     );
   }
 }
