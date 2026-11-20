@@ -18,7 +18,7 @@ dependencies:
   flutter_timezone: ^2.0.0
   geolocator: ^11.0.0
   shared_preferences: ^2.2.2
-  intl: ^0.19.0
+  intl: any
   scrollable_positioned_list: ^0.3.8
 
 flutter:
