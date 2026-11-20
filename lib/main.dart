@@ -83,7 +83,7 @@ class HomeScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
-          mainAxisAlignment.center,
+       mainAxisAlignment: MainAxisAlignment.center,
           children: [
             _btn(context, isAr ? 'القرآن الكريم' : 'Holy Quran', Icons.menu_book, Colors.teal, () => Navigator.push(context, MaterialPageRoute(builder: (_) => SurahListScreen(isAr: isAr)))),
             const SizedBox(height: 18),
